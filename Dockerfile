@@ -1,2 +1,2 @@
 FROM nginx:stable-alpine
-RUN pwd
+RUN apk update && apk add curl
