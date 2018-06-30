@@ -1,2 +1,2 @@
 FROM nginx:stable-alpine
-RUN apk update && apk add curl
+RUN apk update && apk add curl vim
